@@ -1,0 +1,146 @@
+
+body {
+  font-family: 'Arial', sans-serif; 
+  background-color: #f0f4f8;  
+  color: #333; 
+  margin: 0;  
+  padding: 0;  
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 800px;  
+  margin: 20px auto; 
+  padding: 20px;  
+  background-color: #fff;  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+  border-radius: 8px;  
+}
+
+/* Estilos para los encabezados */
+h1, h2, h3 {
+  color: #2c3e50;  
+  margin-bottom: 16px;  
+}
+
+h1 {
+  font-size: 2.5em;  
+}
+
+h2 {
+  font-size: 2em;  
+}
+
+h3 {
+  font-size: 1.5em;  
+}
+
+/* Estilos para los párrafos */
+p {
+  line-height: 1.6;  
+  margin-bottom: 16px;  
+}
+
+/* Estilos para los botones */
+button {
+  background-color: #3498db;  
+  color: #fff;  
+  border: none;  /* Elimina el borde del botón */
+  padding: 10px 20px;  /* Añade relleno dentro del botón */
+  font-size: 1em;  /* Define el tamaño de fuente del texto del botón */
+  cursor: pointer;  /* Cambia el cursor al pasar sobre el botón */
+  border-radius: 4px;  /* Redondea las esquinas del botón */
+  transition: background-color 0.3s ease;  /* Añade una transición suave para el cambio de color de fondo */
+}
+
+button:hover {
+  background-color: #2980b9;  /* Cambia el color de fondo del botón al pasar el cursor sobre él */
+}
+
+/* Estilos para las tablas */
+table {
+  width: 100%;  /* Establece el ancho de la tabla al 100% del contenedor */
+  border-collapse: collapse;  /* Elimina los espacios entre las celdas de la tabla */
+  margin-bottom: 20px;  /* Añade margen inferior a la tabla */
+}
+
+table th, table td {
+  padding: 12px 15px;  /* Añade relleno dentro de las celdas de la tabla */
+  border: 1px solid #ddd;  /* Establece un borde gris claro para las celdas */
+  text-align: left;  /* Alinea el texto a la izquierda en las celdas */
+}
+
+table th {
+  background-color: #3498db;  /* Establece el color de fondo de las celdas de encabezado de la tabla en azul */
+  color: #fff;  /* Establece el color del texto de las celdas de encabezado en blanco */
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;  
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;  
+}
+
+/* Estilos para los formularios */
+form {
+  margin-bottom: 20px;  /* Añade margen inferior a los formularios */
+}
+
+form label {
+  display: block;  /* Establece que las etiquetas ocupen una línea completa */
+  margin-bottom: 8px;  /* Añade margen inferior a las etiquetas */
+  color: #2c3e50;  /* Establece el color del texto de las etiquetas en azul oscuro */
+}
+
+form input, form select {
+  width: 100%;  
+  padding: 8px;  /* Añade relleno dentro de las entradas y los selectores */
+  margin-bottom: 12px;  /* Añade margen inferior a las entradas y los selectores */
+  border: 1px solid #ddd;  /* Establece un borde gris claro para las entradas y los selectores */
+  border-radius: 4px;  /* Redondea las esquinas de las entradas y los selectores */
+}
+
+/* Estilos para el modal */
+.modal-content {
+  background-color: #fff;  /* Establece el color de fondo del contenido del modal en blanco */
+  padding: 20px;  /* Añade relleno dentro del contenido del modal */
+  border-radius: 8px;  /* Redondea las esquinas del contenido del modal */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Añade una sombra ligera al contenido del modal */
+}
+
+.modal-header, .modal-footer {
+  border-bottom: none;  /* Elimina el borde inferior del encabezado del modal */
+  border-top: none;  /* Elimina el borde superior del pie del modal */
+}
+
+.modal-header .close {
+  color: #333;  /* Establece el color del botón de cierre del modal en gris oscuro */
+  opacity: 1;  /* Establece la opacidad completa del botón de cierre del modal */
+}
+
+.modal-body {
+  padding: 20px;  /* Añade relleno dentro del cuerpo del modal */
+}
+
+/* Estilos para los mensajes de resultado */
+#resultado {
+  margin-top: 20px;  
+  padding: 10px;  
+  background-color: #e74c3c;  
+  color: #fff;  
+  text-align: center;  
+  border-radius: 4px;  /* Redondea las esquinas del mensaje de resultado */
+}
+
+/* Estilos para mejorar la apariencia en pantallas pequeñas */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;  /* Reduce el relleno dentro del contenedor en pantallas pequeñas */
+  }
+
+  table th, table td {
+    padding: 8px 10px;  /* Reduce el relleno dentro de las celdas de la tabla en pantallas pequeñas */
+  }
+}
